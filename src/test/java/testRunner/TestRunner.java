@@ -9,11 +9,8 @@ import org.testng.annotations.Test;
         (
                 //features= {".//Features/"},
                 //features= {".//Features/Register.feature"},
-        		  //features= {".//Features/login.feature"},
+        		//features= {".//Features/login.feature"},
         		  features= {".//Features/AddProductToCart.feature"},
-                //features= {".//Features/LoginDDT.feature"},
-                //features= {".//Features/LoginDDTExcel.feature"},
-                //features= {".//Features/Login.feature",".//Features/AccountRegistration.feature"},
                 //features="@target/rerun.txt",   // Runs only failures
                 glue="stepDefinitions",
                 plugin= {"pretty",
